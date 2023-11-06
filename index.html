@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <title>Quiz App</title>
+</head>
+<body>
+        <div class="container text-center mt-5">
+            <div id="welcome-container" class="welcome-container">
+                <h1>Welcome to the Quiz!</h1>
+                <button id="start-btn" class="btn btn-primary">Start</button>
+            </div>
+    
+            <div id="quiz-container" class="quiz-container" style="display: none;">
+                <h1 class="mb-4">Quiz App</h1>
+                <div class="question-container">
+                    <p id="question-text">Question goes here</p>
+                    <div id="options" class="options mt-3"></div>
+                </div>
+                <button id="next-btn" class="btn btn-primary mt-3">Next</button>
+                <div id="result" class="result mt-4"></div>
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
+   
+    
+</body>
+</html>
